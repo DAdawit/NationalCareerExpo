@@ -2,6 +2,7 @@ import NavBar from "@/common/NavBar";
 import AboutEvent from "@/components/Home/AboutEvent";
 import Hero from "@/components/Home/Hero";
 import Objects from "@/components/Home/Objects";
+import Targets from "@/components/Home/Targets";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <AboutEvent />
       <Objects />
+      <Targets />
     </main>
   );
 }
