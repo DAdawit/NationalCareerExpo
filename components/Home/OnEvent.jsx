@@ -1,85 +1,49 @@
 import Image from "next/image";
 
-const OurStrength = () => {
+const OnEvent = () => {
+  const styles2 = {
+    backgroundImage: `url('/event1.jpg')`,
+    backgroundSize: "cover",
+  };
   return (
-    <div className="pb-10">
-      <div className="flex flex-col justify-center items-center gap-5 pt-16 ">
-        <h1 className=" text-primary font-sans text-sm font-medium text-center ">
-          WHY CHOOSE US
-        </h1>
-        <Image
-          src="/separator.png"
-          alt="spector"
-          width={100}
-          height={200}
-          className="text-center"
-        />
-        <h1 className=" text-secondary text-4xl font-serif">Our Strength</h1>
-      </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 px-5 mt-10  content-evenly gap-3 justify-evenly ">
-        <div className="flex flex-col justify-center items-center gap-2 bg-[#1D1F20] py-5 rounded-md">
-          <Image
-            src="/strength/str1.png"
-            alt="spector"
-            width={100}
-            height={200}
-            className="text-center"
-          />
-          <h1 className="text-gray-300 text-lg font-medium font-sans">
-            Hygienic Food
+    <section className="mt-16">
+      <div className="bg-fixed bg-cover bg-center pb-7" style={styles2}>
+        <div className="flex flex-col justify-center items-center gap-5 pt-16 ">
+          <h1 className="gridiantText text-6xl font-serif font-extrabold">
+            {" "}
+            On Our Event
           </h1>
-          <p className="text-sm text-gray-300 text-center font-serif tracking-wide">
-            Lorem Ipsum is simply dummy printing and typesetting.
-          </p>
         </div>
-        <div className="flex flex-col justify-center items-center gap-2 bg-bgPrimary py-5 rounded-md">
-          <Image
-            src="/strength/str2.png"
-            alt="spector"
-            width={100}
-            height={200}
-            className="text-center"
-          />
-          <h1 className="text-gray-300 text-lg font-medium font-sans">
-            Fresh Environment
-          </h1>
-          <p className="text-sm text-gray-300 text-center font-serif tracking-wide">
-            Lorem Ipsum is simply dummy printing and typesetting.
-          </p>
-        </div>
-        <div className="flex flex-col justify-center items-center gap-2 bg-[#1D1F20] py-5 rounded-md">
-          <Image
-            src="/strength/str3.png"
-            alt="spector"
-            width={100}
-            height={200}
-            className="text-center"
-          />
-          <h1 className="text-gray-300 text-lg font-medium font-sans">
-            Skilled Chefs
-          </h1>
-          <p className="text-sm text-gray-300 text-center font-serif tracking-wide">
-            Lorem Ipsum is simply dummy printing and typesetting.
-          </p>
-        </div>
-        <div className="flex flex-col justify-center items-center gap-2 bg-bgPrimary py-5 rounded-md">
-          <Image
-            src="/strength/str4.png"
-            alt="spector"
-            width={100}
-            height={200}
-            className="text-center"
-          />
-          <h1 className="text-gray-300 text-lg font-medium font-sans">
-            Event & Party
-          </h1>
-          <p className="text-sm text-gray-300 text-center font-serif tracking-wide">
-            Lorem Ipsum is simply dummy printing and typesetting.
-          </p>
+        <div className="grid grid-cols-1 max-w-2xl mx-auto gap-y-8 ">
+          <div className="flex flex-col justify-center mt-10 bg-white opacity-70 p-8">
+            <h1 className="text-center text-3xl  mb-3 sm:text-5xl font-medium font-serif text-gray-800 tracking-wider">
+              Career Expo
+            </h1>
+            <p>
+              Step into a world where opportunities abound! Experience a
+              dynamic, immersive blend of in-person and virtual interactions.
+              Engage with leading employer companies, explore a diverse range of
+              industries, and uncover hidden gems that align with your passions
+              and aspirations.
+            </p>
+          </div>
+          <div className="flex flex-col justify-center mt-10 bg-white opacity-70 p-8">
+            <h1 className="text-center text-3xl mb-3 sm:text-5xl font-medium font-serif text-gray-800 tracking-wider">
+              Side Events
+            </h1>
+            <p className="text-gray-800">
+              Brace yourself for a series of captivating side events designed to
+              ignite your passion, inspire change, and equip you with the skills
+              needed to thrive in the digital age. From thought-provoking
+              discussions on passion versus profession to harnessing the power
+              of social media for career success, each event promises to leave
+              you energized and ready to conquer the world.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
-export default OurStrength;
+export default OnEvent;

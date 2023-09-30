@@ -8,7 +8,7 @@ const Targets = () => {
         <h1 className="gridiantText text-5xl text-center font-extrabold py-16">
           Our Target Audience
         </h1>
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-5xl mx-auto ">
           <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center gap-8">
             <div className="grid gap-3 h-min self-center">
               <h1 className="gridiantText text-5xl text-center font-bold h-min">
