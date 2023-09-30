@@ -10,7 +10,6 @@ const OnEvent = () => {
       <div className="bg-fixed bg-cover bg-center pb-7" style={styles2}>
         <div className="flex flex-col justify-center items-center gap-5 pt-16 ">
           <h1 className="gridiantText text-6xl font-serif font-extrabold">
-            {" "}
             On Our Event
           </h1>
         </div>
