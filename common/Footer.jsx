@@ -4,7 +4,10 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-[#720627]">
+      <footer
+        className="bg-[#720627]"
+        style={{ backgroundColor: "#720627", color: "white" }}
+      >
         <div className="container mx-auto p-5 ">
           <div>
             <div className="flex gap-2">

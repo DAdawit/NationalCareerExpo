@@ -1,9 +1,10 @@
 import React from "react";
 import { company } from "./data";
+import ApplicationForm from "./ApplicationForm";
 const Detail = () => {
   return (
     <>
-      <section className="container mx-auto px-5">
+      <section className="container mx-auto px-8">
         <h1 className="gridiantText text-5xl font-extrabold pt-16 pb-8">
           {company?.companyName} Vacancy 2023
         </h1>
@@ -20,7 +21,9 @@ const Detail = () => {
               </ol>
             </div>
           </div>
-          <section className="col-span-1 bg-white"></section>
+          <section className="col-span-1 bg-white h-max">
+            <ApplicationForm />
+          </section>
         </div>
       </section>
     </>

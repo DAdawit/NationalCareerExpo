@@ -11,7 +11,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-gray-50">
       <Hero />
       <AboutEvent />
       <Objects />

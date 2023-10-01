@@ -5,7 +5,7 @@ const AboutEvent = () => {
   return (
     <section className="container mx-auto px-8  mt-16 ">
       <div className="mt-24 mb-8 md:mb-16">
-        <h1 class="gridiantText text-center text-5xl font-semibold mb-3  ">
+        <h1 className="gridiantText text-center text-5xl font-semibold mb-3  ">
           Welcome to the National Career Expo 2023!
         </h1>
       </div>
