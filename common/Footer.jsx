@@ -9,7 +9,14 @@ const Footer = () => {
           <div>
             <div className="flex gap-2">
               <Image
-                src="/mcLogo2.png"
+                src="/image004.png"
+                height={1000}
+                width={1000}
+                alt="mister of labour and skill"
+                className="h-24 w-24 object-contain"
+              />
+              <Image
+                src="/image009.png"
                 height={1000}
                 width={1000}
                 alt="mister of labour and skill"
@@ -17,13 +24,6 @@ const Footer = () => {
               />
               <Image
                 src="/logo2.png"
-                height={1000}
-                width={1000}
-                alt="mister of labour and skill"
-                className="h-24 w-24 object-contain"
-              />
-              <Image
-                src="/mlsLogo.png"
                 height={1000}
                 width={1000}
                 alt="mister of labour and skill"

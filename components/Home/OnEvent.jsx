@@ -14,7 +14,7 @@ const OnEvent = () => {
           </h1>
         </div>
         <div className="grid grid-cols-1 max-w-2xl mx-auto gap-y-8 ">
-          <div className="flex flex-col justify-center mt-10 bg-white opacity-70 p-8">
+          <div className="flex flex-col justify-center mt-10 bg-white opacity-90 p-8">
             <h1 className="text-center text-3xl  mb-3 sm:text-5xl font-medium font-serif text-gray-800 tracking-wider">
               Career Expo
             </h1>
@@ -26,7 +26,7 @@ const OnEvent = () => {
               and aspirations.
             </p>
           </div>
-          <div className="flex flex-col justify-center mt-10 bg-white opacity-70 p-8">
+          <div className="flex flex-col justify-center mt-10 bg-white opacity-90 p-8">
             <h1 className="text-center text-3xl mb-3 sm:text-5xl font-medium font-serif text-gray-800 tracking-wider">
               Side Events
             </h1>

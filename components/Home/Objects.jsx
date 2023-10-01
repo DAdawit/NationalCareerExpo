@@ -8,7 +8,7 @@ const Objects = () => {
           Our Objectives
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-16 justify-items-center max-w-5xl mx-auto">
-          <div className="shadow-lg grid  p-8 rounded-xl">
+          <div className="shadow-lg grid  p-8 rounded-xl bg-white">
             <div className="flex justify-center items-center h-20">
               <h1 className="gridiantText text-2xl text-center font-bold">
                 Forge Face-to-Face <br /> Connections
@@ -22,7 +22,7 @@ const Objects = () => {
               secure dream jobs.
             </p>
           </div>
-          <div className="shadow-lg grid  p-8 rounded-xl">
+          <div className="shadow-lg grid  p-8 rounded-xl bg-white">
             <div className="flex justify-center items-center h-20">
               <h1 className="gridiantText text-2xl text-center font-bold">
                 Illuminate the Fresh Graduate <br /> Advantage
@@ -35,7 +35,7 @@ const Objects = () => {
               rising stars.
             </p>
           </div>
-          <div className="shadow-lg grid  p-8 rounded-xl">
+          <div className="shadow-lg grid  p-8 rounded-xl bg-white">
             <div className="flex justify-center items-center h-20">
               <h1 className="gridiantText text-2xl text-center font-bold">
                 Network Your Way to <br /> Success
@@ -48,7 +48,7 @@ const Objects = () => {
               and accelerate your career growth.
             </p>
           </div>
-          <div className="shadow-lg grid  p-8 rounded-xl">
+          <div className="shadow-lg grid  p-8 rounded-xl bg-white">
             <div className="flex justify-center items-center h-20">
               <h1 className="gridiantText text-2xl text-center font-bold">
                 Advocacy, Inspiration, and <br /> Learning
