@@ -2,13 +2,13 @@ import Image from "next/image";
 
 const CallToAction = () => {
   const styles2 = {
-    backgroundImage: `url('/happyPepole.jpg')`,
+    backgroundImage: `url('/happyPepole2.jpg')`,
     backgroundSize: "cover",
   };
   return (
     <section className="mt-16">
       <div
-        className="bg-fixed bg-cover bg-center pb-7 h-96 flex justify-center items-center"
+        className="bg-fixed bg-cover bg-center pb-7 h-[100vh] flex justify-center items-center"
         style={styles2}
       >
         <div className="grid grid-cols-1 max-w-3xl mx-auto gap-y-8 ">
