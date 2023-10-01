@@ -1,5 +1,7 @@
 import NavBar from "@/common/NavBar";
 import AboutEvent from "@/components/Home/AboutEvent";
+import CallToAction from "@/components/Home/CallToAction";
+import Companies from "@/components/Home/Companies";
 import Endorsers from "@/components/Home/Endorsers";
 import Hero from "@/components/Home/Hero";
 import Objects from "@/components/Home/Objects";
@@ -15,6 +17,8 @@ export default function Home() {
       <Objects />
       <Targets />
       <OnEvent />
+      <Companies />
+      <CallToAction />
       <Endorsers />
     </main>
   );
