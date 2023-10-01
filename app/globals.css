@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.gridiantText {
+  @apply bg-gradient-to-r from-textPrimary to-textSecondary text-transparent bg-clip-text;
+}
+
+.gridiantBg {
+  @apply bg-gradient-to-r from-textPrimary to-textSecondary;
+}

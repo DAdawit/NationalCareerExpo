@@ -1,91 +1,45 @@
 import Image from "next/image";
-import Link from "next/link";
+import React from "react";
+
 const Footer = () => {
   return (
-    <div className="bg-blue-800 py-3">
-      <section className="container mx-auto px-5">
-        <div>
-          <div className="flex justify-start">
-            <Image
-              src="/logo.png"
-              height={100}
-              width={100}
-              alt="logo image"
-              className="h-18 w-28 object-contain"
-            />
+    <>
+      <footer
+        className="bg-[#720627]"
+        style={{ backgroundColor: "#720627", color: "white" }}
+      >
+        <div className="container mx-auto p-5 ">
+          <div>
+            <div className="flex gap-2">
+              <Image
+                src="/image004.png"
+                height={1000}
+                width={1000}
+                alt="mister of labour and skill"
+                className="h-24 w-24 object-contain"
+              />
+              <Image
+                src="/image009.png"
+                height={1000}
+                width={1000}
+                alt="mister of labour and skill"
+                className="h-24 w-24 object-contain"
+              />
+              <Image
+                src="/logo2.png"
+                height={1000}
+                width={1000}
+                alt="mister of labour and skill"
+                className="h-24 w-24 object-contain"
+              />
+            </div>
+            <h1 className="text-gray-300 text-xl pt-8">
+              National Career Expo 2023 !
+            </h1>
           </div>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 items-stretch mt-5">
-          <div className="text-gray-200 flex flex-col gap-y-1">
-            <h1 className="text-white font-bold text-2xl">USEFUL LINKS</h1>
-            <Link
-              href="#"
-              className="text-sm  font-sans text-white hover:underline underline-offset-2 mt-2"
-            >
-              ABOUT US
-            </Link>
-            <Link
-              href="#"
-              className="text-sm font-sans text-white hover:underline underline-offset-2 "
-            >
-              OUR SERVICES
-            </Link>
-            <Link
-              href="#"
-              className="text-sm  font-sans text-white hover:underline underline-offset-2 "
-            >
-              INFORMATION
-            </Link>
-            <Link
-              href="#"
-              className="text-sm font-sans text-white hover:underline underline-offset-2 "
-            >
-              PRIVACY POLICY
-            </Link>
-          </div>
-          <div className="text-gray-200 flex flex-col gap-y-1">
-            <h1 className="text-white font-bold text-2xl">OUR TERMS</h1>
-            <Link
-              href="#"
-              className="text-sm  font-sans text-white hover:underline underline-offset-2 mt-2"
-            >
-              SUPPORT
-            </Link>
-            <Link
-              href="#"
-              className="text-sm font-sans text-white hover:underline underline-offset-2 "
-            >
-              CONTACTS
-            </Link>
-            <Link
-              href="#"
-              className="text-sm  font-sans text-white hover:underline underline-offset-2 "
-            >
-              TYPOGRAPHY
-            </Link>
-            <Link
-              href="#"
-              className="text-sm font-sans text-white hover:underline underline-offset-2 "
-            >
-              FAQ
-            </Link>
-          </div>
-          <div className="text-gray-200 flex flex-col gap-y-1">
-            <h1 className="text-white font-bold text-2xl">SHOWROOM</h1>
-            <h1 className="text-sm  font-sans text-white mt-2">
-              Eth, Auto, Addis Ababa. 665087
-            </h1>
-            <h1 className="text-sm font-sans text-white">
-              Phone.: +251936207512
-            </h1>
-            <h1 className="text-sm  font-sans text-white">
-              E-mail.: dawitccnt@gmail.com
-            </h1>
-            <h1 className="text-sm font-sans text-white">© 2023 Auto LTD</h1>
-          </div>
-        </div>
-      </section>
-    </div>
+      </footer>
+    </>
   );
 };
 
