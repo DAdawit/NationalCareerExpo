@@ -5,7 +5,6 @@ const page = () => {
   return (
     <>
       <div className="min-h-screen">
-        <h1>company detail</h1>
         <Detail />
       </div>
     </>
