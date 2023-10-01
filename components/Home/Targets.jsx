@@ -26,7 +26,7 @@ const Targets = () => {
                 alt="heroImage"
                 height={2000}
                 width={2000}
-                className="h-72 w-96 object-cover object-bottom self-center rounded-xl"
+                className="h-72 w-full object-cover object-bottom self-center rounded-xl"
               />
             </div>
           </div>
@@ -40,7 +40,7 @@ const Targets = () => {
                 alt="heroImage"
                 height={2000}
                 width={2000}
-                className="h-72 w-96 object-cover object-bottom self-center rounded-xl"
+                className="h-72 w-full object-cover object-bottom self-center rounded-xl"
               />
             </div>
             <div className="order-1 md:order-2 grid gap-3 h-min self-center">
@@ -74,7 +74,7 @@ const Targets = () => {
                 alt="heroImage"
                 height={2000}
                 width={2000}
-                className="h-72 w-96 object-cover object-bottom self-center rounded-xl"
+                className="h-72 w-full object-cover object-bottom self-center rounded-xl"
               />
             </div>
           </div>

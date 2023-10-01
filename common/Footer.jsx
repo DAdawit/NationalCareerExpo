@@ -5,11 +5,8 @@ const Footer = () => {
   return (
     <>
       <footer className="bg-[#720627]">
-        <div className="container mx-auto px-5 ">
+        <div className="container mx-auto p-5 ">
           <div>
-            <h1 className="text-gray-300 text-xl pt-8">
-              National Career Expo 2023 !
-            </h1>
             <div className="flex gap-2">
               <Image
                 src="/mcLogo2.png"
@@ -33,6 +30,9 @@ const Footer = () => {
                 className="h-24 w-24 object-contain"
               />
             </div>
+            <h1 className="text-gray-300 text-xl pt-8">
+              National Career Expo 2023 !
+            </h1>
           </div>
         </div>
       </footer>
