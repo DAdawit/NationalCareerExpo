@@ -1,6 +1,9 @@
+"use client";
 import React from "react";
 import JobsList from "../ListComponents/JobsList";
-
+import Image from "next/image";
+import { AnimationOnScroll } from "react-animation-on-scroll";
+import "animate.css";
 const Companies = () => {
   return (
     <>
@@ -13,7 +16,14 @@ const Companies = () => {
         <div className="container  px-5 max-w-4xl mx-auto mt-8">
           <div className="grid gap-y-4">
             {[1, 2, 3, 4, 5, 6].map((item, index) => (
-              <JobsList key={index} />
+              <div key={index}>
+                <AnimationOnScroll
+                  animateOnce
+                  animateIn="animate__animated  animate__fadeInUp animate__delay-0.3s animate__slow	0.5s"
+                >
+                  <JobsList key={index} />
+                </AnimationOnScroll>
+              </div>
             ))}
           </div>
         </div>

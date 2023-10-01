@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "next": "latest",
     "react": "latest",
+    "react-animation-on-scroll": "^5.1.0",
     "react-dom": "latest",
     "react-hook-form": "^7.43.9"
   },
