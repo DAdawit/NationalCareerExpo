@@ -52,7 +52,7 @@ const JobsList = ({ item }) => {
             <span className="text-textPrimary">
               <CalendarIcon />
             </span>
-            <h2> 01 Jan, 2045</h2>
+            <h2> 01 Sep, 2023</h2>
           </div>
         </div>
       </div>
