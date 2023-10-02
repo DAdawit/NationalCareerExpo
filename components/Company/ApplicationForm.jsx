@@ -76,7 +76,7 @@ const ApplicationForm = () => {
               name="fieldStudy"
               placeholder="Computer science"
               {...register("fieldStudy", {
-                required: "Field Study Study is required",
+                required: "Field Study is required",
               })}
             />
             <small className="text-red-500">{errors.fieldStudy?.message}</small>
