@@ -70,11 +70,11 @@ const ApplicationForm = () => {
             <small className="text-red-500">{errors.email?.message}</small>
           </div>
           <div className="grid mt-1">
-            <label htmlFor="fieldStudy">Field Of Study</label>
+            <label htmlFor="fieldStudy"> Study Field </label>
             <input
               type="text"
               name="fieldStudy"
-              placeholder="Computer science "
+              placeholder="Computer science"
               {...register("fieldStudy", {
                 required: "Field Study Study is required",
               })}
