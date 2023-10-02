@@ -95,11 +95,11 @@ const ApplicationForm = () => {
           </div>
 
           <div className="grid mt-1 col-span-2">
-            <label htmlFor="description">Upload Cv *</label>
+            <label htmlFor="description">Upload Cv * pdf only</label>
             <input
               multiple
               type="file"
-              //   accept="pdf/*"
+              accept="application/pdf"
               name="resume"
               {...register("resume", {
                 required: "File is required",
