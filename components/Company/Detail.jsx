@@ -5,8 +5,8 @@ const Detail = () => {
   return (
     <>
       <section className="container mx-auto px-8">
-        <h1 className="gridiantText text-5xl font-extrabold pt-16 pb-8">
-          {company?.companyName} Vacancy 2023
+        <h1 className="text-green-500 text-5xl font-extrabold pt-16 pb-8">
+          Heineken Breweries S.C Vacancy 2023
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
           <div className=" col-span-2">

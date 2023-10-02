@@ -70,16 +70,16 @@ const ApplicationForm = () => {
             <small className="text-red-500">{errors.email?.message}</small>
           </div>
           <div className="grid mt-1">
-            <label htmlFor="fildStudy">Filld Of Study</label>
+            <label htmlFor="fieldStudy">Field Of Study</label>
             <input
               type="text"
-              name="fildStudy"
-              placeholder="Computer scince"
-              {...register("fildStudy", {
-                required: "Fild Study is required",
+              name="fieldStudy"
+              placeholder="Computer science "
+              {...register("fieldStudy", {
+                required: "Field Study Study is required",
               })}
             />
-            <small className="text-red-500">{errors.fildStudy?.message}</small>
+            <small className="text-red-500">{errors.fieldStudy?.message}</small>
           </div>
           <div className="grid mt-1">
             <label htmlFor="gpa">CGPA</label>
