@@ -8,7 +8,7 @@ const Objects = () => {
       <section className="container mx-auto px-5 mt-16">
         <AnimationOnScroll
           animateOnce
-          animateIn="animate__animated  animate__slideInDown animate__delay-0.3s animate__slow	0.5s"
+          animateIn="animate__animated  animate__fadeIn animate__delay-0.3s animate__slow	0.5s"
         >
           <h1 className="gridiantText text-5xl text-center font-extrabold py-16">
             Our Objectives

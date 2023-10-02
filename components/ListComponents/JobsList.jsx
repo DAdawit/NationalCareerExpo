@@ -5,14 +5,14 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const JobsList = () => {
+const JobsList = ({ item }) => {
   return (
     <>
       <div className="grid sm:flex justify-between py-3 px-5 shadow-lg hover:shadow-none hover:border-2 hover:border-gray-200 transition-all bg-white">
         <div className="flex gap-3 items-center">
           <div className="h-24 w-24">
             <Image
-              src="/image004.png"
+              src={item?.logo}
               height={1000}
               width={1000}
               alt="company logo"
@@ -21,7 +21,7 @@ const JobsList = () => {
           </div>
           <div className="grid  h-full">
             <div className="align-top">
-              <h1 className=" text-xl font-bold">Africa Jobs</h1>
+              <h1 className=" text-xl font-bold">{item.name}</h1>
             </div>
             <div className="align-bottom">
               <div className="flex gap-2 items-end">
@@ -29,7 +29,7 @@ const JobsList = () => {
                   <span className="text-textPrimary">
                     <LocationIcon />
                   </span>
-                  <h2>Addis Ababa</h2>
+                  <h2>{item.location}</h2>
                 </div>
                 <div className="flex gap-1 items-center">
                   <span className="text-textPrimary">
@@ -46,7 +46,7 @@ const JobsList = () => {
             href="/company"
             className="gridiantBg px-4 py-3 text-white hover:scale-105 w-min whitespace-nowrap"
           >
-            Applay Now
+            Apply Now
           </Link>
           <div className="flex items-center gap-1">
             <span className="text-textPrimary">

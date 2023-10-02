@@ -4,6 +4,7 @@ import JobsList from "../ListComponents/JobsList";
 import Image from "next/image";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import "animate.css";
+import { jobs } from "@/data/jobs";
 const Companies = () => {
   return (
     <>
@@ -15,13 +16,13 @@ const Companies = () => {
         </div>
         <div className="container  px-5 max-w-4xl mx-auto mt-8">
           <div className="grid gap-y-4">
-            {[1, 2, 3, 4, 5, 6].map((item, index) => (
+            {jobs.map((item, index) => (
               <div key={index}>
                 <AnimationOnScroll
                   animateOnce
                   animateIn="animate__animated  animate__fadeInUp animate__delay-0.3s animate__slow	0.5s"
                 >
-                  <JobsList key={index} />
+                  <JobsList key={index} item={item} />
                 </AnimationOnScroll>
               </div>
             ))}
