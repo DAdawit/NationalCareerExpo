@@ -18,7 +18,7 @@ const AboutEvent = () => {
       </AnimationOnScroll>
       <AnimationOnScroll
         animateOnce
-        animateIn="animate__animated  animate__fadeInDown animate__delay-0.3s animate__slow	0.5s"
+        animateIn="animate__animated  animate__fadeInUp animate__delay-0.3s animate__slow	0.5s"
       >
         <div className="flex flex-col-reverse md:flex-row items-center gap-x-16 gap-y-8">
           <div className="w-full">

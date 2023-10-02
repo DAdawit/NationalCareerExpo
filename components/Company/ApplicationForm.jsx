@@ -69,6 +69,30 @@ const ApplicationForm = () => {
             />
             <small className="text-red-500">{errors.email?.message}</small>
           </div>
+          <div className="grid mt-1">
+            <label htmlFor="fildStudy">Filld Of Study</label>
+            <input
+              type="text"
+              name="fildStudy"
+              placeholder="Computer scince"
+              {...register("fildStudy", {
+                required: "Fild Study is required",
+              })}
+            />
+            <small className="text-red-500">{errors.fildStudy?.message}</small>
+          </div>
+          <div className="grid mt-1">
+            <label htmlFor="gpa">CGPA</label>
+            <input
+              type="number"
+              name="gpa"
+              placeholder="Gpa"
+              {...register("gpa", {
+                required: "GPA is required",
+              })}
+            />
+            <small className="text-red-500">{errors.gpa?.message}</small>
+          </div>
 
           <div className="grid mt-1 col-span-2">
             <label htmlFor="description">Upload Cv *</label>

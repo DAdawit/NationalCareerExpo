@@ -8,7 +8,7 @@ const Objects = () => {
       <section className="container mx-auto px-5 mt-16">
         <AnimationOnScroll
           animateOnce
-          animateIn="animate__animated  animate__fadeInUp animate__delay-0.3s animate__slow	0.5s"
+          animateIn="animate__animated  animate__slideInDown animate__delay-0.3s animate__slow	0.5s"
         >
           <h1 className="gridiantText text-5xl text-center font-extrabold py-16">
             Our Objectives
@@ -18,9 +18,9 @@ const Objects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-16 justify-items-center max-w-5xl mx-auto">
           <AnimationOnScroll
             animateOnce
-            animateIn="animate__animated  animate__backInLeft animate__delay-0.3s animate__slow	0.5s"
+            animateIn="animate__animated  animate__slideInDown animate__delay-0.3s animate__slow	0.5s"
           >
-            <div className="shadow-lg grid  p-8 rounded-xl bg-white">
+            <div className="shadow-lg grid  p-8 rounded-xl bg-white h-full">
               <div className="flex justify-center items-center h-20">
                 <h1 className="gridiantText text-2xl text-center font-bold">
                   Forge Face-to-Face <br /> Connections
@@ -37,9 +37,28 @@ const Objects = () => {
           </AnimationOnScroll>
           <AnimationOnScroll
             animateOnce
-            animateIn="animate__animated  animate__backInRight animate__delay-0.3s animate__slow	0.5s"
+            animateIn="animate__animated  animate__slideInDown animate__delay-0.3s animate__slow	0.5s"
           >
-            <div className="shadow-lg grid  p-8 rounded-xl bg-white">
+            <div className="shadow-lg grid  p-8 rounded-xl bg-white h-full">
+              <div className="flex justify-center items-center h-20">
+                <h1 className="gridiantText text-2xl text-center font-bold">
+                  Advocacy, Inspiration, and <br /> Learning
+                </h1>
+              </div>
+              <p className="text-base text-gray-500 text-center tracking-wide">
+                Immerse yourself in a rich tapestry of advocacy, information
+                sharing, learning, and inspiration. Engage in thought-provoking
+                conferences, panel discussions, and workshops, and be part of
+                the transformative dialogue shaping the future of recruitment in
+                the digital age.
+              </p>
+            </div>
+          </AnimationOnScroll>
+          <AnimationOnScroll
+            animateOnce
+            animateIn="animate__animated  animate__slideInDown animate__delay-0.3s animate__slow	0.5s"
+          >
+            <div className="shadow-lg grid  p-8 rounded-xl bg-white h-full">
               <div className="flex justify-center items-center h-20">
                 <h1 className="gridiantText text-2xl text-center font-bold">
                   Illuminate the Fresh Graduate <br /> Advantage
@@ -56,9 +75,9 @@ const Objects = () => {
 
           <AnimationOnScroll
             animateOnce
-            animateIn="animate__animated  animate__backInLeft animate__delay-0.3s animate__slow	0.5s"
+            animateIn="animate__animated  animate__slideInDown animate__delay-0.3s animate__slow	0.5s"
           >
-            <div className="shadow-lg grid  p-8 rounded-xl bg-white">
+            <div className="shadow-lg grid  p-8 rounded-xl bg-white h-full">
               <div className="flex justify-center items-center h-20">
                 <h1 className="gridiantText text-2xl text-center font-bold">
                   Network Your Way to <br /> Success
@@ -69,25 +88,6 @@ const Objects = () => {
                 networking with industry professionals, mentors, and potential
                 colleagues. Forge relationships that can open doors to exciting
                 opportunities and accelerate your career growth.
-              </p>
-            </div>
-          </AnimationOnScroll>
-          <AnimationOnScroll
-            animateOnce
-            animateIn="animate__animated  animate__backInRight animate__delay-0.3s animate__slow	0.5s"
-          >
-            <div className="shadow-lg grid  p-8 rounded-xl bg-white">
-              <div className="flex justify-center items-center h-20">
-                <h1 className="gridiantText text-2xl text-center font-bold">
-                  Advocacy, Inspiration, and <br /> Learning
-                </h1>
-              </div>
-              <p className="text-base text-gray-500 text-center tracking-wide">
-                Immerse yourself in a rich tapestry of advocacy, information
-                sharing, learning, and inspiration. Engage in thought-provoking
-                conferences, panel discussions, and workshops, and be part of
-                the transformative dialogue shaping the future of recruitment in
-                the digital age.
               </p>
             </div>
           </AnimationOnScroll>

@@ -4,7 +4,7 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <nav style={{ backgroundColor: "#000" }}>
+    <nav style={{ backgroundColor: "#fff" }} className="">
       <div className="flex justify-between p-5">
         <Link href="/">
           <Image
